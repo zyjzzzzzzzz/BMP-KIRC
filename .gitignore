@@ -1,0 +1,48 @@
+# R temporary files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Local configuration
+.env
+.env.*
+config/paths_local.R
+*token*
+*password*
+*api_key*
+
+# Large R objects
+*.rds
+*.RDS
+*.RData
+
+# Raw and intermediate data
+data/raw/
+data/intermediate/
+data/private/
+data/clinical/
+
+# Large omics files
+*.h5
+*.h5ad
+*.loom
+*.bam
+*.sam
+*.fastq
+*.fastq.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Temporary outputs
+tmp/
+temp/
+cache/
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
